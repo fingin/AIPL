@@ -1,0 +1,4 @@
+ARCHITECTURE SimpleNN
+  LAYER Input 784
+  LAYER Dense 128 activation=ReLU
+  LAYER Dense 10 activation=Softmax
