@@ -1,4 +1,4 @@
-## AIPL Interpreter
+## AIPL
 AIPL (Artificial Intelligence Programming Language) Interpreter is a Python-based parser for a domain-specific language designed to simplify the definition of deep learning model architectures and training parameters. By leveraging popular deep learning frameworks like TensorFlow, AIPL streamlines AI model development and deployment.
 
 # Features
