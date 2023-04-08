@@ -1,4 +1,11 @@
-ARCHITECTURE SimpleNN
+ARCHITECTURE MyModel
   LAYER Input 784
   LAYER Dense 128 activation=ReLU
+  LAYER Dropout 0.5
   LAYER Dense 10 activation=Softmax
+DATASET csv my_data.csv target_column=target batch_size=64 validation_split=0.2 shuffle=True seed=42
+TRAINING
+  optimizer=Adam learning_rate=0.001
+  loss=SparseCategoricalCrossentropy
+  metrics=accuracy
+  epochs=10
